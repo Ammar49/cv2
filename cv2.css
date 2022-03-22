@@ -124,89 +124,18 @@
 }
 
 
-/* Jobster Candidate */
-.jobster-candidate-timeline {
-    position: relative;
-}
-.jobster-candidate-timeline:before {
-    content: "";
-    position: absolute;
-    left: 20px;
-    width: 2px;
-    top: 5px;
-    bottom: 5px;
-    height: calc(100% - 5px);
-    background-color: #eeeeee;
-}
-
-.jobster-candidate-timeline .jobster-timeline-item {
-    display: table;
-    position: relative;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
-    border-radius: 50%;
-    border: 12px solid white;
-    z-index: 1;
-    top: 5px;
-    left: 9px;
-    position: absolute;
-}
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle:before {
-    content: "";
-    position: absolute;
-    left: 12px;
-    width: 20px;
-    top: -1px;
-    bottom: 5px;
-    height: 2px;
-    background-color: #eeeeee;
-}
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle > i {
-    font-size: 15px;
-    top: -8px;
-    left: -7px;
-    position: absolute;
-    color: purple;
-}
-
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info {
-    display: table-cell;
-    vertical-align: top;
-    padding: 5px 0 0 70px;
-}
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info h6 {
-    color: purple;
-    margin: 5px 0 0px;
-}
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info span {
-    color: #212529;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.jobster-candidate-timeline span.jobster-timeline-time {
-    color: #646f79 !important;
-}
-
-.jobster-candidate-timeline .jobster-timeline-icon {
-    border: 2px solid #eeeeee;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    line-height: 42px;
+#panel,#flip {
+    padding-top: 20px;
     text-align: center;
-    background: #ffffff;
-    position: relative;
-    margin-bottom: 20px;
-}
-.jobster-candidate-timeline .jobster-timeline-icon i {
-    font-size: 16px;
-    color: #212529;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow {
-    top: 16px;
-}
+    background-color: #fff;
+    border: solid 1px #c3c3c3;
+    color: red;
+    padding-bottom: 20px;
+  }
+  
+  #panel {
+    padding: 50px;;
+    display: none;
+    color: purple;
+    background-color: #fff;
+  }

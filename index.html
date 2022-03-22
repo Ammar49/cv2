@@ -11,6 +11,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
 </head>
 <body>
     
@@ -149,33 +156,8 @@
                   </div>
                 </div>
               </div>
-              <div class="timeline-box mt-4">
-                <h5 class="resume-experience-title">Awards:</h5>
-                <div class="jobster-candidate-timeline">
-                  <div class="jobster-timeline-item">
-                    <div class="jobster-timeline-cricle">
-                      <i class="far fa-circle"></i>
-                    </div>
-                    <div class="jobster-timeline-info">
-                      <div class="dashboard-timeline-info">
-                        <span class="jobster-timeline-time">lorem to lorem</span>
-                        <h6 class="mb-2">Lorem, ipsum.</h6>
-                        <span>- Lorem, ipsum.</span>
-                        <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laborum adipisci corporis totam.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="jobster-timeline-item mb-0">
-                    <div class="jobster-timeline-cricle">
-                      <i class="far fa-circle"></i>
-                    </div>
-                    <div class="jobster-timeline-info">
-                      <div class="dashboard-timeline-info">
-                        <span class="jobster-timeline-time">lorem to lorem</span>
-                        <h6 class="mb-2">Lorem, ipsum dolor.</h6>
-                        <span>- Lorem, ipsum dolor.</span>
-                        <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint saepe fugiat aliquid sequi.</p>
-                      </div>
+              <div id="flip">Experience</div>
+<div id="panel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum voluptate voluptates quo eos! Recusandae tenetur magnam perspiciatis accusamus cumque?</div>
                   </div>
                 </div>
               </div>
